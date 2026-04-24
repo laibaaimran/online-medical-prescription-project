@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/frontend/create.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/frontend/create.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3001/frontend/create.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3001/frontend/create.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3001/frontend/dashboard.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3001/frontend/dashboard.html"
+        }
+    ]
+}

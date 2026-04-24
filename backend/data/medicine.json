@@ -1,0 +1,103 @@
+{
+
+    "Dolo": {
+        "generic": "Paracetamol",
+        "category": "Fever/Pain",
+        "sideEffects": "Nausea, rash, liver damage (rare)"
+    },
+    "Crocin": {
+        "generic": "Paracetamol",
+        "category": "Fever",
+        "sideEffects": "Allergic reaction, nausea"
+    },
+    "Calpol": {
+        "generic": "Paracetamol",
+        "category": "Fever",
+        "sideEffects": "Rash, liver issues (overdose)"
+    },
+    "Brufen": {
+        "generic": "Ibuprofen",
+        "category": "Pain/Inflammation",
+        "sideEffects": "Stomach pain, acidity, dizziness"
+    },
+    "Combiflam": {
+        "generic": "Ibuprofen + Paracetamol",
+        "category": "Pain",
+        "sideEffects": "Gastric irritation, nausea"
+    },
+    "Benadryl": {
+        "generic": "Diphenhydramine",
+        "category": "Cough/Allergy",
+        "sideEffects": "Drowsiness, dry mouth"
+    },
+    "Corex": {
+        "generic": "Codeine + Chlorpheniramine",
+        "category": "Cough",
+        "sideEffects": "Sleepiness, constipation"
+    },
+    "Ascoril": {
+        "generic": "Salbutamol + Bromhexine",
+        "category": "Cough",
+        "sideEffects": "Tremors, headache"
+    },
+    "Glycomet": {
+        "generic": "Metformin",
+        "category": "Diabetes",
+        "sideEffects": "Diarrhea, nausea, stomach upset"
+    },
+    "Amaryl": {
+        "generic": "Glimepiride",
+        "category": "Diabetes",
+        "sideEffects": "Low blood sugar, dizziness"
+    },
+    "Ecosprin": {
+        "generic": "Aspirin",
+        "category": "Heart/Blood thinner",
+        "sideEffects": "Bleeding risk, stomach irritation"
+    },
+    "Atorva": {
+        "generic": "Atorvastatin",
+        "category": "Cholesterol/Heart",
+        "sideEffects": "Muscle pain, liver enzyme changes"
+    },
+    "Telma": {
+        "generic": "Telmisartan",
+        "category": "Blood Pressure",
+        "sideEffects": "Dizziness, low BP"
+    },
+    "Amlong": {
+        "generic": "Amlodipine",
+        "category": "Blood Pressure",
+        "sideEffects": "Swelling, fatigue"
+    },
+    "Pantocid": {
+        "generic": "Pantoprazole",
+        "category": "Acidity",
+        "sideEffects": "Headache, diarrhea"
+    },
+    "Gelusil": {
+        "generic": "Antacid",
+        "category": "Acidity",
+        "sideEffects": "Constipation or diarrhea"
+    },
+    "Cetirizine": {
+        "generic": "Cetirizine",
+        "category": "Allergy",
+        "sideEffects": "Drowsiness, dry mouth"
+    },
+    "Azithral": {
+        "generic": "Azithromycin",
+        "category": "Antibiotic",
+        "sideEffects": "Diarrhea, nausea"
+    },
+    "Clindac A": {
+        "generic": "Clindamycin",
+        "category": "Skin (Acne)",
+        "sideEffects": "Skin dryness, irritation"
+    },
+    "Betnovate": {
+        "generic": "Betamethasone",
+        "category": "Skin (Steroid)",
+        "sideEffects": "Skin thinning, irritation"
+    }
+}
