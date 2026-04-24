@@ -121,8 +121,7 @@ app.post("/api/prescription/pdf", (req, res) => {
 
 
 app.get("/", (req, res) => {
-    res.send("Server  is working");
-
+    res.sendFile(path.join(__dirname, "../frontend/home.html"));
 });
 
 
