@@ -67,12 +67,16 @@ function viewDetails(name) {
     const patient = allData.find(p => p.patient === name);
 
     if (patient) {
-        alert(
-            `Patient: ${patient.patient}
-Diagnosis: ${patient.diagnosis}
-Medicines: ${patient.meds.join(", ")}
-Diet: ${patient.diet}
-Side Effects: ${patient.sideEffects}`
-        );
+        const box = document.getElementById("detailsBox");
+
+        box.innerHTML =
+            `<div class="card p-3 mt-3 shadow">
+<h5><strong>Patient Name:</strong>${patient.patient}<h5>
+<p><strong>Diagnosis:</strong> ${patient.diagnosis}</p>
+<p><strong>Medicines:</strong> ${patient.meds.join(", ")}</p>
+<p><strong>Diet:</strong> ${patient.diet}</p>
+<p><strong>Side Effects:</strong> ${patient.sideEffects}</p>
+</div>`;
+
     }
 }
