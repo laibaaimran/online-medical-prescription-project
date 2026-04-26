@@ -12,10 +12,8 @@
 body {
     font-family: 'Inter', sans-serif;
     background: linear-gradient(135deg, #eef5fb, #dfeefc);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 10px;
 }
 
 
@@ -23,10 +21,10 @@ body {
 
 .container {
     background: #ffffff;
-    padding: 2.5rem 2rem;
+    padding: 20px;
     border-radius: 14px;
     width: 100%;
-    max-width: 360px;
+    max-width: 900px;
     box-shadow: 0 8px 25px rgba(21, 101, 192, 0.08);
     text-align: center;
 }
@@ -104,9 +102,9 @@ body {
 
 /* Responsive */
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .container {
-        padding: 2rem 1.5rem;
+        padding: 15px;
         width: 90%;
     }
 }
@@ -144,8 +142,8 @@ body {
 }
 
 .action-bar input {
-    padding: 8px;
-    width: 200px;
+    max-width: 900px;
+    margin: auto;
     border-radius: 6px;
     border: 1px solid #ccc;
 }
@@ -176,4 +174,8 @@ body {
 
 .card:hover {
     transform: translateY(-5px);
+}
+
+button {
+    border-radius: 8px;
 }
