@@ -1,6 +1,7 @@
-//const express = require("express");
 import express from "express";
 import cors from "cors";
+//import connectDB from "./db.js";
+//import patient from "./models/patient.js";
 import dietRoutes from "./routes/dietRoutes.js";
 
 import PDFDocument from "pdfkit";
@@ -8,7 +9,7 @@ import medicineRoutes from "./routes/medicineRoutes.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-
+//connectDB(); //database 
 app.use(cors()); //CORS CROSS ORIGIN RESOURCE SHARING 
 app.use(express.json());
 
@@ -26,7 +27,7 @@ app.post("api/diet", (req, res) => {
 });
 
 
-//const medicineRoutes = require(".routes/medicineRoutes");
+
 app.use("/api/medicines", medicineRoutes); //middleware for prescription api
 
 
@@ -124,6 +125,15 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "../frontend/home.html"));
 });
 
+// app.post("/api/prescription", async(req, res) => {
+//     try {
+//         const data = new Patient(req.body);
+//         await newData.save();
+//         res.send("Saved successfully");
+//     } catch (err) {
+//         res.status(500).send(err);
+//     }
+// });
 
 
 app.listen(PORT, () => {
